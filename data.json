@@ -1,0 +1,33 @@
+{
+
+"libro":[
+    {"id":"01",
+    "titulo":"El fantasma de la ópera",
+    "autor":"Gaston Leroux",
+    "anio":"1909",
+    "genero":"Clásicos",
+    "estado":"Disponible",
+    "sinopsis":"La aparición de esta obra en 1910 revolucionó el género de novela de misterio y nos regaló uno de los arquetipos más fascinantes de la literatura del siglo XX: el del genio horriblemente desfigurado que anida bajo la superficie de la gran ciudad, sucumbe al amor apasionado y maquina una terrible venganza. Mezcla de romanticismo y novela gótica, esta intensa historia de desamor, música y deformidades ha dado origen a multitud de adaptaciones, desde el musical de Broadway hasta el cine alternativo estadounidense. Erik y su máscara se han convertido por derecho propio en iconos de la cultura popular, y nos proporcionan una lectura inolvidable.",
+    "precio":"200",
+    "cantidad":"10"},
+
+    {"id":"02",
+    "titulo":"La hipótesis del amor",
+    "autor":"Ali Hazelwood",
+    "anio":"2021",
+    "genero":"Literatura juvenil",
+    "estado":"Disponible",
+    "sinopsis":"LA COMEDIA ROMÁNTICA DEL AÑO. LA SENSACIÓN DE TIKTOK. Una relación falsa entre dos científicos se topa con la irresistible fuerza de la atracción Olive Smith es una doctoranda de tercer año que no cree en las relaciones amorosas duraderas, pero su mejor amiga, Ahn, sí, y por eso Olive se ha metido en un lío monumental. A Ahn le gusta el exnovio de Olive, pero jamás daría el primer paso porque es una buena amiga.Convencerla de que ha pasado página y de que está construyendo su fueron felices y comieron perdices no va a resultarle nada fácil a Olive, puesto que los científicos necesitan pruebas. Por eso, como cualquier mujer con un mínimo de amor propio, se deja llevar por el pánico y besa al primer hombre con el que se encuentra para que Ahn la vea. Ese hombre es nada más y nada menos que Adam Carlsen, un joven profesor tan reputado por la calidad de su trabajo como por su imbecilidad. Así que Olive se queda de piedra cuando Carlsen accede a mantener su farsa en secreto y ser su novio falso. Sin embargo, después de que un importante congreso científico se convierta en un desastre y Adam vuelva a sorprenderla con su apoyo inquebrantable (y sus inquebrantables abdominales), su pequeño experimento se acerca peligrosamente al punto de combustión. Olive no tarda en descubrir que la única cosa más complicada que una hipótesis sobre el amor es analizar su propio corazón bajo el microscopio.",
+    "precio":"200",
+    "cantidad":"20"},
+
+    {"id":"03",
+    "titulo":"Dune",
+    "autor":"Frank Herbert",
+    "anio":"1965",
+    "genero":"Ciencia Ficción",
+    "estado":"Disponible",
+    "sinopsis":"En el desértico planeta Arrakis, el agua es el bien más preciado y llorar a los muertos, el símbolo de máxima prodigalidad. Pero algo hace de Arrakis una pieza estratégica para los intereses del Emperador, las Grandes Casas y la Cofradía, los tres grandes poderes de la galaxia. Arrakis es el único origen conocido de la melange, preciosa especia y uno de los bienes más codiciados del universo. Al duque Leto Atreides se le asigna el gobierno de este mundo inhóspito, habitado por los indómitos Fremen y monstruosos gusanos de arena de centenares de metros de longitud. Sin embargo, cuando la familia es traicionada, su hijo y heredero, Paul, emprenderá un viaje hacia un destino más grande del que jamás hubiese podido soñar.",
+    "precio":"242",
+    "cantidad":"15"}]
+}
