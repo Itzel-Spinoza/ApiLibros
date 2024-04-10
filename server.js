@@ -91,6 +91,79 @@ app.delete('/libro/:id', (req, res) => {
     res.json({ message: "Order deleted successfully" });
 });
 
+
+app.get('/libro', (req, res) => {
+    const data = readData();
+    res.json(data.libro);
+});
+
+app.get('/libro/:id', (req, res) => {
+    const data = readData();
+    const id = parseInt(req.params.id);
+    const libro = data.libro.find((libro) => libro.id === id);
+    res.json(libro);
+});
+
+app.post('/libro', (req, res) => {
+    const data = readData();
+    const body = req.body;
+    const newOrder = {
+        id: data.libro.length + 1,
+        ...body,
+    };
+    data.libro.push(newOrder);
+    writeData(data);
+    res.json(newOrder);
+});
+
+/* PARA CARRITO */
+app.get('/carrito', (req, res) => {
+    const data = readData();
+    res.json(data.carrito);
+});
+
+app.get('/carrito/:id', (req, res) => {
+    const data = readData();
+    const id = req.params.id;
+    const carrito = data.carrito.filter((item) => item.id === id);
+    res.json(carrito);
+});
+
+app.post('/carrito', (req, res) => {
+    const data = readData();
+    const body = req.body;
+    const newOrder = {
+        ...body,
+    };
+    data.carrito.push(newOrder);
+    writeData(data);
+    res.json(newOrder);
+});
+
+app.put('/carrito/:id', (req, res) => {
+    const data = readData();
+    const body = req.body;
+    const id = req.params.id;
+    const orderIndex = data.carrito.findIndex((item) => item.id === id);
+    data.carrito[orderIndex] = {
+        ...data.carrito[orderIndex],
+        ...body,
+    };
+
+    writeData(data);
+    res.json({ message: "Order updated successfully."})
+});
+
+app.delete('/carrito/:id', (req, res) => {
+    const data = readData();
+    const id = req.params.id;
+    const orderIndex = data.carrito.findIndex((item) => item.id === id);
+    data.carrito.splice(orderIndex, 1);
+    writeData(data);
+    res.json({ message: "Order deleted successfully" });
+});
+
+
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
 });
