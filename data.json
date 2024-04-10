@@ -29,5 +29,24 @@
     "estado":"Disponible",
     "sinopsis":"En el desértico planeta Arrakis, el agua es el bien más preciado y llorar a los muertos, el símbolo de máxima prodigalidad. Pero algo hace de Arrakis una pieza estratégica para los intereses del Emperador, las Grandes Casas y la Cofradía, los tres grandes poderes de la galaxia. Arrakis es el único origen conocido de la melange, preciosa especia y uno de los bienes más codiciados del universo. Al duque Leto Atreides se le asigna el gobierno de este mundo inhóspito, habitado por los indómitos Fremen y monstruosos gusanos de arena de centenares de metros de longitud. Sin embargo, cuando la familia es traicionada, su hijo y heredero, Paul, emprenderá un viaje hacia un destino más grande del que jamás hubiese podido soñar.",
     "precio":"242",
-    "cantidad":"15"}]
+    "cantidad":"15"}],
+    
+   "carrito":[
+        {"id":"02",
+        "correoCliente":"saphiralopez11@gmail.com",
+        "tituloLibro":"La hipótesis del amor",
+        "autor":"Ali Hazelwood",
+        "cantidad": 3,
+        "precioLibro":200,
+        "subtotal":600},
+
+        {"id":"01",
+        "correoCliente":"saphiralopez11@gmail.com",
+        "tituloLibro":"El fantasma de la ópera",
+        "autor":"Gaston Leroux",
+        "cantidad": 3,
+        "precioLibro":200,
+        "subtotal":600}]
+        
+
 }
